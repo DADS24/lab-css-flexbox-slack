@@ -31,36 +31,36 @@ h2 {
 }
 .header{
   width:100%;
-  max-height: 80px;
   display: flex;
-  flex-flow: row;  
+  flex-flow: row;
+  justify-content: space-between; 
   border-bottom: 1px solid #ebebeb;
 }
 .logo{
-  width: 12%;
+  width: 15%;
   padding:15px 15px 15px 15px;
 }
 .logo>img{
   vertical-align: middle;
-  width: 80%;  
+  width: 90%;  
 }
 .menu{
   width: 55%;
+  margin-left: 10%;
+  padding:20px 15px 15px 30%;  
 
 }
 .menu>ul{
   list-style: none;
-  line-height: 80px;
   
 }
 .menu li{
   display: inline;
-  margin-left: 3%; 
-    
+  margin-left: 3%;     
 }
-.menu>.button{ 
-  width: 130px;
-  border: 1px solid #ebebeb;
-  line-height: 80px;
-  text-align: center;  
+.linkOne{
+  border:1px double #ebebeb;
+  border-radius: 5%;
+  padding: 10px 10px 10px 10px;
 }
+/*End of Header
