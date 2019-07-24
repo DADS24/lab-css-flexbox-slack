@@ -18,6 +18,7 @@ h1{
   color: #323648;
   font-weight: 600;
   font-family: initial;
+
 }
 h2 {
   margin: 0;
@@ -36,31 +37,98 @@ h2 {
   justify-content: space-between; 
   border-bottom: 1px solid #ebebeb;
 }
+.header{
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  background-color: #fff;
+}
 .logo{
   width: 15%;
   padding:15px 15px 15px 15px;
+  margin-left:2%; 
 }
 .logo>img{
   vertical-align: middle;
-  width: 90%;  
+  width: 60%;  
 }
 .menu{
   width: 55%;
   margin-left: 10%;
-  padding:20px 15px 15px 30%;  
-
+  padding:20px 15px 15px 30%;
+  color:#1d1d1d;
 }
 .menu>ul{
-  list-style: none;
-  
+  list-style: none;  
 }
 .menu li{
   display: inline;
-  margin-left: 3%;     
+  margin-left: 3%;
+  font-size: 1.25rem;     
 }
 .linkOne{
   border:1px double #ebebeb;
   border-radius: 5%;
   padding: 10px 10px 10px 10px;
 }
-/*End of Header
+/*End of Header*/
+
+.mainContent{
+  display: flex;
+  flex-flow: row;
+  width:100%;
+  min-height: 500px;
+  justify-content: space-around;
+  padding-top: 4%;
+}
+.mainRight{
+  width:50%;
+  box-sizing: content-box; 
+}
+.mainRight>p{
+  width: 80%;
+  text-align: justify;
+  color: #696969;
+  font-family:"Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
+  font-size: 1.25rem;
+   
+}
+.mainButton{
+  background-color: #611f69;
+  color:white;
+  border-radius: 4px;
+  text-align: center;
+  width:200px;
+  line-height:60px;
+  margin-top:5%;
+  font-weight: 600;
+}
+/*End main content*/
+
+.mainBottom{
+  width: 100%;
+  min-height: 500px;
+  margin:20px auto;
+  padding-top:40px; 
+  background-color: #ebebeb;
+}
+.bottom1{
+  width: 100%;  
+  text-align: center;
+  font-family:"Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
+  font-size: 1.25rem;
+  margin-bottom: 50px;
+}
+
+.bottom2{
+  width: 100%;  
+}
+.bottom2>div{
+  margin-bottom:5%; 
+}
+.bottom2>div>img{
+  width:15%;
+  height: 15%;
+  vertical-align: middle;
+  margin-left: 13%;  
+}
